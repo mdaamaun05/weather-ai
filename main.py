@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from weather import get_weather
+from backend.weather import get_weather
 
 app = FastAPI(
     title="AI Weather Early Warning API"
